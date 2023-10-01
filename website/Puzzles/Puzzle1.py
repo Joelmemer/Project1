@@ -3,7 +3,11 @@ import enchant
 
 # Function to generate a random word from a list
 def generate_random_word():
-    word_list = ["dates", "space", "clock", "quant", "loops", "pulse", "timer", "speed", "sonic", "light", "stars", "sound", "watch", "visit", "storm", "crash", "shift", "glide"]
+    word_list = [
+        "Arrow", "Caves", "Chief", "Flame", "Grass", "Hunts", "Rocks", "Skull", "Stone", "Swamp", "Wheel", "Woods",
+        "Skins", "Tribe", "Earth", "Spear", "Water", "Wheat", "Crops", "Nomad", "Fires", "Boars", "Bones",
+        "Flint", "Tools", "Knife", "Trees", "Boats"
+    ] 
     return random.choice(word_list)
 
 # Function to check if a word is valid using enchant
